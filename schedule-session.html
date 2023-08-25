@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>toThePoint Tutoring</title>
+
+        <!-- font-family links -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> -->
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+        
+        <link rel = 'stylesheet' href = 'styles/general.css'>
+        <link rel = 'stylesheet' href = 'styles/header.css'>
+        <link rel = 'stylesheet' href = 'styles/schedule-session.css'>
+    </head>
+    <body>
+        <header class = 'header'>
+            <div class = 'left-section'>
+                <a class = 'js-logo-button logo-button' href  = 'main.html'>
+                    <div class = 'logo-box'>
+                        <img class = 'to-the-point-logo' src = 'images/toThePointLogo.jpeg'>
+                        toThePoint Tutoring
+                    </div>
+                </a>
+            </div>
+            <nav class = 'right-section'>
+                <a class = 'js-schedule-button nav-button' href = 'schedule-session.html'>Schedule a Session</a>
+                <a class = 'js-tutors-button nav-button' href = 'our-tutors.html'>Our Tutors</a>
+                <a class = 'js-sign-up-button nav-button' href = 'sign-up.html'>Become a Tutor</a>
+            </nav>
+        </header>
+        <main class = 'main'>
+            <div class = 'session-info'>
+                <p class = 'title'>
+                    About a Session
+                </p>
+                <div class = 'divider'></div>
+                <div class = 'about-session-box'>
+                    <div class = 'text-box'>
+
+                        <div class = 'bullet-point-box'>
+                            <ul class = 'bullet-points'> 
+                                <li>$50 per session</li>
+                                <li>Minimum session duration of 1 hour, maximum session duration of 2 hours</li>
+                                <li>Sessions are conducted online over Zoom, or in person at the Westport Library</li>
+                                <li>Once you find your tutor below, their description will list their email address and general time conflictions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- <div class = 'tutor-search-image-box'>
+                        <img class = 'tutor-search-image' src = 'images/tutor-search.png'>
+                    </div> -->
+
+                </div>
+            </div>
+            <div class = 'find-tutor'>
+                <p class = 'title'>
+                    Find Your Tutor
+                </p>
+                <div class = 'divider'></div>
+
+                <div class = 'form-box'>
+
+                    <form id='form-1'>
+                        <div class='form-control'>
+                            <p class = 'form-instructions'>
+                                Please fill out the form below so we can find a tutor just right for you!
+                            </p>
+                            <p class='tutor-search-question'>
+                                Would you like to search for your tutor by name or subject?
+                            </p>
+
+                            <div class = 'form-input-box'>
+                                <label for='recommend-1-1'>
+                                    <input type='radio' id='recommend-1-1' name='recommend-1' value='Name'>Name
+                                </label>
+                                <label for='recommend-1-2'>
+                                    <input type='radio' id='recommend-1-2' name='recommend-1' value='Subject'>Subject
+                                </label>
+                            </div>
+                        </div>
+                    
+                        <button class='js-submit-button-1 submit-button'>Submit</button>
+                    </form>
+                </div>
+
+                <form id = 'form-2'></form>
+
+            </div>
+            <div class = 'tutor-display'></div>
+
+        </main>
+        <script src = 'scripts/general.js'></script>
+        <script src = 'scripts/tutors.js'></script>
+        <script src = 'scripts/subjects.js'></script>
+        <script src = 'scripts/schedule-session.js'></script>
+    </body>
+</html>

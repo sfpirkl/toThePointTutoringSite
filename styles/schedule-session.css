@@ -1,0 +1,172 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+    z-index: 0;
+}
+
+.find-tutor-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.form-instructions {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-box {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.tutor-search-question {
+    margin: 15px 10px;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background-color: #d2c6d2;
+    border-radius: 15px;
+    border: white 0.5px solid;
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.submit-button:hover {
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.name-input {
+    display: block;
+    padding: 7.5px 15px;
+    font-family: Quicksand, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.form-input-box {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tutor-display {
+    display: flex;
+    flex-direction: column;
+}
+
+.subject-search-title {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.single-tutor-display {
+    background-color: #f2f5f8;
+    display: flex;
+    flex-direction: row; 
+}
+
+.tutor-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.tutor-image-box {
+    display: flex;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.tutor-image {
+    width: 300px;
+}
+
+.tutor-name {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.tutor-subjects-title, 
+.tutor-bio-title,
+.tutor-availability-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.tutor-subjects-body{
+    font-size: 16px;
+}
+
+.tutor-bio-body,
+.tutor-availability-body {
+    font-size: 18px;
+}
+
+.tutor-availability-body {
+    margin-bottom: 20px;
+}
+
+.tutor-name,
+.tutor-email,
+.tutor-age,
+.tutor-subjects-title,
+.tutor-subjects-body,
+.tutor-bio-title,
+.tutor-bio-body,
+.tutor-availability-title,
+.tutor-availability-body {
+    margin-right: 60px;
+}
+
+.session-info {
+    margin-bottom: 50px;
+}
+
+.subject-input-box {
+    display: grid;
+}
+
+@media(max-width: 999px) {
+    .tutor-subjects-body {
+        font-size: 12px;
+    }
+}
+
+@media(min-width: 1000px) and (max-width: 1300px) {
+    .tutor-subjects-body {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 889px) {
+    .subject-input-box {
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media(min-width: 900px) {
+    .subject-input-box {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
