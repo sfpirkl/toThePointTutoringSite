@@ -33,7 +33,7 @@ const tutorList = [{
         'AP Micro Economics'
     ],
     meetingPreference: 'Either',
-    imgName: 'samPirklPic.jpeg',
+    imgName: 'samPirklPic.jpg',
     bio: `
         Sam is very passionate about STEM, especially computer science, math, and physics. He particularly enjoys web programming and machine learning. Outside of the classroom, he likes to spend his time playing rugby, coding his own projects, and woodworking. Sam has a great record of tutoring and working with others, as he often tutors other students and coaches youth rugby in Westport.
     `,
