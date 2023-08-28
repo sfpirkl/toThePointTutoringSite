@@ -80,7 +80,7 @@ const tutorList = [{
         Eitan is incredibly enthusiastic about STEM, particularly excelling in math, chemistry, and physics. He enjoys playing soccer for Beachside Academy and listening to music and podcasts. On any given fall Sunday, you will find Eitan passionately cheering on his Buffalo Bills. With an impressive tutoring background, he has provided math assistance through the Math Honors Society at Staples and mentored children at his temple in preparation for their Bar and Bat Mitzvahs.
     `,
     availabilityBio: `
-        Eitan is typically available most days after school, and he is available on weekends.
+        Eitan is typically available most days after school, and he is available on weekends. He is very flexible to find time around his soccer schedule.
     `
 }, {
     id: 1003,
