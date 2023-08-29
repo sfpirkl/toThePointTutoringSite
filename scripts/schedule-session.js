@@ -282,8 +282,8 @@ function displayTutors(tutors) {
                     <div class = 'tutor-subjects-body'>${printTutorSubjects(tutor.id)}</div>
                     <div class = 'tutor-bio-title'>A little bit about ${tutor.name.split(" ")[0]}:</div>
                     <div class = 'tutor-bio-body'>${tutor.bio}</div>
-                    <div class = 'tutor-availabiltiy-title'>${tutor.name.split(" ")[0]}'s general availability:</div>
-                    <div class = 'tutor-availabiltiy-body'>${tutor.availabilityBio}</div>
+                    <div class = 'tutor-availability-title'>${tutor.name.split(" ")[0]}'s general availability:</div>
+                    <div class = 'tutor-availability-body'>${tutor.availabilityBio}</div>
                 </div>
             </div>
             <div class = 'divider-box'>
