@@ -194,4 +194,43 @@ const tutorList = [{
     availabilityBio: `
         Ko is typically available most days after school.
     `
+}, {
+    id: 1006,
+    name: 'Kaya Law',
+    email: 'kayabelle@icloud.com',
+    birthday: {
+    month: 9,
+    day: 26,
+    year: 2005
+    },
+    subjectList: [
+        'Pre-Algebra',
+        'Algebra 1',
+        'Algebra 1 Honors',
+        'Geometry',
+        'Geometry Honors',
+        'Algebra 2',
+        'Algebra 2 Honors',
+        'AP Environmental Science',
+        'Global Themes',
+        'Global Themes Honors',
+        'US History',
+        'US History Honors',
+        'AP US History',
+        'US Government',
+        'AP US Government and Politics',
+        'English 9',
+        'English 9 Honors',
+        'English 10',
+        'English 10 Honors',
+        'AP English Language'
+    ],
+    meetingPreference: 'Either',
+    imgName: 'kayaLawPic.jpg',
+    bio: `
+        Kaya’s favorite subjects involve environmental science and sustainability, as well as global issues. She also enjoys writing in her english classes. Even when she’s out of the classroom, Kaya applies her interest in environmental studies. She is also passionate about architecture and music. Kaya has great experience in teaching others, she’s a camp counselor and has taught swim lessons as a lifeguard.
+    `,
+    availabilityBio: `
+        Kaya is typically available most days after school.
+    `
 }];
